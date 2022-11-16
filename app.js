@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const http = require("http");
 
-const {routesInit} = require("./routes/routesInit");
+const {routesInit} = require("./routers/routerInit.js");
 
 
 const app = express();
